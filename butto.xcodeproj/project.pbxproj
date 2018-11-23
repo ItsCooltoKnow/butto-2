@@ -13,6 +13,7 @@
 		0D216BD6219B43B20091E7CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D216BD5219B43B20091E7CF /* Assets.xcassets */; };
 		0D216BD9219B43B20091E7CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D216BD7219B43B20091E7CF /* LaunchScreen.storyboard */; };
 		0D216BE4219B43B20091E7CF /* buttoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D216BE3219B43B20091E7CF /* buttoTests.swift */; };
+		0DCBF56F21A884B300F622BD /* radio-tune-zwoop-down.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0DCBF56E21A884B200F622BD /* radio-tune-zwoop-down.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		0D216BDF219B43B20091E7CF /* buttoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buttoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D216BE3219B43B20091E7CF /* buttoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttoTests.swift; sourceTree = "<group>"; };
 		0D216BE5219B43B20091E7CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DCBF56E21A884B200F622BD /* radio-tune-zwoop-down.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "radio-tune-zwoop-down.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +79,9 @@
 		0D216BCD219B43B00091E7CF /* butto */ = {
 			isa = PBXGroup;
 			children = (
-				0D216BD0219B43B00091E7CF /* ViewController.swift */,
-				0D216BD2219B43B00091E7CF /* Main.storyboard */,
+				0DCBF57021A884CF00F622BD /* Sonidos */,
+				0DCBF57121A884EC00F622BD /* Controladores */,
+				0DCBF57221A884F900F622BD /* Vistas */,
 				0D216BCE219B43B00091E7CF /* AppDelegate.swift */,
 				0D216BD5219B43B20091E7CF /* Assets.xcassets */,
 				0D216BD7219B43B20091E7CF /* LaunchScreen.storyboard */,
@@ -94,6 +97,30 @@
 				0D216BE5219B43B20091E7CF /* Info.plist */,
 			);
 			path = buttoTests;
+			sourceTree = "<group>";
+		};
+		0DCBF57021A884CF00F622BD /* Sonidos */ = {
+			isa = PBXGroup;
+			children = (
+				0DCBF56E21A884B200F622BD /* radio-tune-zwoop-down.wav */,
+			);
+			path = Sonidos;
+			sourceTree = "<group>";
+		};
+		0DCBF57121A884EC00F622BD /* Controladores */ = {
+			isa = PBXGroup;
+			children = (
+				0D216BD0219B43B00091E7CF /* ViewController.swift */,
+			);
+			path = Controladores;
+			sourceTree = "<group>";
+		};
+		0DCBF57221A884F900F622BD /* Vistas */ = {
+			isa = PBXGroup;
+			children = (
+				0D216BD2219B43B00091E7CF /* Main.storyboard */,
+			);
+			path = Vistas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +206,7 @@
 			files = (
 				0D216BD9219B43B20091E7CF /* LaunchScreen.storyboard in Resources */,
 				0D216BD6219B43B20091E7CF /* Assets.xcassets in Resources */,
+				0DCBF56F21A884B300F622BD /* radio-tune-zwoop-down.wav in Resources */,
 				0D216BD4219B43B00091E7CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
