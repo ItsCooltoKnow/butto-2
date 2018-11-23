@@ -14,6 +14,9 @@
 		0D216BD9219B43B20091E7CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D216BD7219B43B20091E7CF /* LaunchScreen.storyboard */; };
 		0D216BE4219B43B20091E7CF /* buttoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D216BE3219B43B20091E7CF /* buttoTests.swift */; };
 		0DCBF56F21A884B300F622BD /* radio-tune-zwoop-down.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0DCBF56E21A884B200F622BD /* radio-tune-zwoop-down.wav */; };
+		9021EF6921A8B2F6002BC4DF /* 120_electrobreaker.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9021EF6621A8B2F6002BC4DF /* 120_electrobreaker.wav */; };
+		9021EF6A21A8B2F6002BC4DF /* 120_digital-ripper-break.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9021EF6721A8B2F6002BC4DF /* 120_digital-ripper-break.wav */; };
+		9021EF6B21A8B2F6002BC4DF /* 121_big-bright-breakbeat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9021EF6821A8B2F6002BC4DF /* 121_big-bright-breakbeat.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		0D216BE3219B43B20091E7CF /* buttoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttoTests.swift; sourceTree = "<group>"; };
 		0D216BE5219B43B20091E7CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DCBF56E21A884B200F622BD /* radio-tune-zwoop-down.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "radio-tune-zwoop-down.wav"; sourceTree = "<group>"; };
+		9021EF6621A8B2F6002BC4DF /* 120_electrobreaker.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 120_electrobreaker.wav; sourceTree = "<group>"; };
+		9021EF6721A8B2F6002BC4DF /* 120_digital-ripper-break.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "120_digital-ripper-break.wav"; sourceTree = "<group>"; };
+		9021EF6821A8B2F6002BC4DF /* 121_big-bright-breakbeat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "121_big-bright-breakbeat.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 		0DCBF57021A884CF00F622BD /* Sonidos */ = {
 			isa = PBXGroup;
 			children = (
+				9021EF6721A8B2F6002BC4DF /* 120_digital-ripper-break.wav */,
+				9021EF6621A8B2F6002BC4DF /* 120_electrobreaker.wav */,
+				9021EF6821A8B2F6002BC4DF /* 121_big-bright-breakbeat.wav */,
 				0DCBF56E21A884B200F622BD /* radio-tune-zwoop-down.wav */,
 			);
 			path = Sonidos;
@@ -208,6 +217,9 @@
 				0D216BD6219B43B20091E7CF /* Assets.xcassets in Resources */,
 				0DCBF56F21A884B300F622BD /* radio-tune-zwoop-down.wav in Resources */,
 				0D216BD4219B43B00091E7CF /* Main.storyboard in Resources */,
+				9021EF6B21A8B2F6002BC4DF /* 121_big-bright-breakbeat.wav in Resources */,
+				9021EF6921A8B2F6002BC4DF /* 120_electrobreaker.wav in Resources */,
+				9021EF6A21A8B2F6002BC4DF /* 120_digital-ripper-break.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
