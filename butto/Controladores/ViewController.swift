@@ -36,7 +36,7 @@ override func viewDidLoad() {
 
     @IBAction func blue1(_ sender: UIButton) {
         // Set the sound file name & extension
-        let alertSound = URL(fileURLWithPath: Bundle.main.path(forResource: "radio-tune-zwoop-down", ofType: "wav")!)
+        let alertSound = URL(fileURLWithPath: Bundle.main.path(forResource: "blue1", ofType: "wav")!)
         
         do {
             // Preperation
@@ -61,7 +61,7 @@ override func viewDidLoad() {
     
     @IBAction func blue2(_ sender: UIButton) {
         // Set the sound file name & extension
-        let alertSound = URL(fileURLWithPath: Bundle.main.path(forResource: "120_digital-ripper-break", ofType: "wav")!)
+        let alertSound = URL(fileURLWithPath: Bundle.main.path(forResource: "blue2", ofType: "wav")!)
         
         do {
             // Preperation
@@ -85,7 +85,7 @@ override func viewDidLoad() {
     
     @IBAction func blue3(_ sender: UIButton) {
         // Set the sound file name & extension
-        let alertSound = URL(fileURLWithPath: Bundle.main.path(forResource: "120_digital-ripper-break", ofType: "wav")!)
+        let alertSound = URL(fileURLWithPath: Bundle.main.path(forResource: "blue3", ofType: "wav")!)
         
         do {
             // Preperation
@@ -110,7 +110,7 @@ override func viewDidLoad() {
     
     @IBAction func blue4(_ sender: UIButton) {
         // Set the sound file name & extension
-        let alertSound = URL(fileURLWithPath: Bundle.main.path(forResource: "120_digital-ripper-break", ofType: "wav")!)
+        let alertSound = URL(fileURLWithPath: Bundle.main.path(forResource: "blue4", ofType: "wav")!)
         
         do {
             // Preperation
@@ -135,7 +135,7 @@ override func viewDidLoad() {
     @IBAction func blue5(_ sender: UIButton) {
     
     // Set the sound file name & extension
-    let alertSound = URL(fileURLWithPath: Bundle.main.path(forResource: "120_digital-ripper-break", ofType: "wav")!)
+    let alertSound = URL(fileURLWithPath: Bundle.main.path(forResource: "blue5", ofType: "wav")!)
         
         do {
             // Preperation
@@ -157,7 +157,7 @@ override func viewDidLoad() {
         audioPlayer.play()}
     
     @IBAction func purple1(_ sender: UIButton) { // Set the sound file name & extension
-        let alertSound = URL(fileURLWithPath: Bundle.main.path(forResource: "120_digital-ripper-break", ofType: "wav")!)
+        let alertSound = URL(fileURLWithPath: Bundle.main.path(forResource: "purple1", ofType: "wav")!)
         
         do {
             // Preperation
@@ -182,7 +182,7 @@ override func viewDidLoad() {
 
     @IBAction func purple2(_ sender: UIButton) {
         // Set the sound file name & extension
-        let alertSound = URL(fileURLWithPath: Bundle.main.path(forResource: "120_digital-ripper-break", ofType: "wav")!)
+        let alertSound = URL(fileURLWithPath: Bundle.main.path(forResource: "purple2", ofType: "wav")!)
         
         do {
             // Preperation
@@ -206,7 +206,7 @@ override func viewDidLoad() {
     
     @IBAction func purple3(_ sender: UIButton) {
         // Set the sound file name & extension
-        let alertSound = URL(fileURLWithPath: Bundle.main.path(forResource: "120_digital-ripper-break", ofType: "wav")!)
+        let alertSound = URL(fileURLWithPath: Bundle.main.path(forResource: "purple3", ofType: "wav")!)
         
         do {
             // Preperation
@@ -230,7 +230,7 @@ override func viewDidLoad() {
    
     @IBAction func purple4(_ sender: UIButton) {
         // Set the sound file name & extension
-        let alertSound = URL(fileURLWithPath: Bundle.main.path(forResource: "120_digital-ripper-break", ofType: "wav")!)
+        let alertSound = URL(fileURLWithPath: Bundle.main.path(forResource: "purple4", ofType: "wav")!)
         
         do {
             // Preperation
@@ -254,7 +254,7 @@ override func viewDidLoad() {
     
     @IBAction func green1(_ sender: UIButton) {
         // Set the sound file name & extension
-        let alertSound = URL(fileURLWithPath: Bundle.main.path(forResource: "120_digital-ripper-break", ofType: "wav")!)
+        let alertSound = URL(fileURLWithPath: Bundle.main.path(forResource: "green1", ofType: "wav")!)
         
         do {
             // Preperation
@@ -274,11 +274,12 @@ override func viewDidLoad() {
         
         audioPlayer.prepareToPlay()
         audioPlayer.play()
+        audioPlayer.numberOfLoops = -1
     }
     
     @IBAction func green2(_ sender: UIButton) {
         // Set the sound file name & extension
-        let alertSound = URL(fileURLWithPath: Bundle.main.path(forResource: "120_digital-ripper-break", ofType: "wav")!)
+        let alertSound = URL(fileURLWithPath: Bundle.main.path(forResource: "green2", ofType: "wav")!)
         
         do {
             // Preperation
@@ -298,11 +299,12 @@ override func viewDidLoad() {
         
         audioPlayer.prepareToPlay()
         audioPlayer.play()
+        audioPlayer.numberOfLoops = -1
     }
     
     @IBAction func green3(_ sender: UIButton) {
         // Set the sound file name & extension
-        let alertSound = URL(fileURLWithPath: Bundle.main.path(forResource: "120_digital-ripper-break", ofType: "wav")!)
+        let alertSound = URL(fileURLWithPath: Bundle.main.path(forResource: "green3", ofType: "wav")!)
         
         do {
             // Preperation
@@ -322,6 +324,7 @@ override func viewDidLoad() {
         
         audioPlayer.prepareToPlay()
         audioPlayer.play()
+        audioPlayer.numberOfLoops = -1
     }
     
 }
