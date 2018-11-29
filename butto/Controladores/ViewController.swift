@@ -56,6 +56,7 @@ override func viewDidLoad() {
         
         audioPlayer.prepareToPlay()
         audioPlayer.play()
+        audioPlayer.numberOfLoops = -1
         
     }
     
@@ -81,6 +82,7 @@ override func viewDidLoad() {
         
         audioPlayer.prepareToPlay()
         audioPlayer.play()
+        audioPlayer.numberOfLoops = -1
             }
     
     @IBAction func blue3(_ sender: UIButton) {
@@ -105,6 +107,7 @@ override func viewDidLoad() {
         
         audioPlayer.prepareToPlay()
         audioPlayer.play()
+        audioPlayer.numberOfLoops = -1
         
     }
     
@@ -130,6 +133,7 @@ override func viewDidLoad() {
         
         audioPlayer.prepareToPlay()
         audioPlayer.play()
+        audioPlayer.numberOfLoops = -1
     }
     
     @IBAction func blue5(_ sender: UIButton) {
@@ -154,7 +158,10 @@ override func viewDidLoad() {
         
     }
         audioPlayer.prepareToPlay()
-        audioPlayer.play()}
+        audioPlayer.play()
+        audioPlayer.numberOfLoops = -1
+    }
+    
     
     @IBAction func purple1(_ sender: UIButton) { // Set the sound file name & extension
         let alertSound = URL(fileURLWithPath: Bundle.main.path(forResource: "purple1", ofType: "wav")!)
@@ -177,6 +184,7 @@ override func viewDidLoad() {
         
         audioPlayer.prepareToPlay()
         audioPlayer.play()
+        audioPlayer.numberOfLoops = -1
         
     }
 
@@ -202,6 +210,7 @@ override func viewDidLoad() {
         
         audioPlayer.prepareToPlay()
         audioPlayer.play()
+        audioPlayer.numberOfLoops = -1
     }
     
     @IBAction func purple3(_ sender: UIButton) {
@@ -226,6 +235,7 @@ override func viewDidLoad() {
         
         audioPlayer.prepareToPlay()
         audioPlayer.play()
+        audioPlayer.numberOfLoops = -1
     }
    
     @IBAction func purple4(_ sender: UIButton) {
@@ -250,6 +260,7 @@ override func viewDidLoad() {
         
         audioPlayer.prepareToPlay()
         audioPlayer.play()
+        audioPlayer.numberOfLoops = -1
     }
     
     @IBAction func green1(_ sender: UIButton) {
@@ -326,8 +337,11 @@ override func viewDidLoad() {
         audioPlayer.play()
         audioPlayer.numberOfLoops = -1
     }
+
+    
     
 }
+
 
 
 
