@@ -24,8 +24,8 @@ override func viewDidLoad() {
         if self.view.backgroundColor == UIColor.blue{
             self.view.backgroundColor = UIColor.purple
 
-        }else if self.view.backgroundColor == UIColor.blue {
-            self.view.backgroundColor = UIColor.red
+        }else{
+            self.view.backgroundColor = UIColor.blue
         }
        
         
@@ -37,6 +37,8 @@ override func viewDidLoad() {
     }
 
     @IBAction func blue1(_ sender: UIButton) {
+        
+        
         // Set the sound file name & extension
         let alertSound = URL(fileURLWithPath: Bundle.main.path(forResource: "blue1", ofType: "wav")!)
         
