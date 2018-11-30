@@ -12,6 +12,8 @@ import AVFoundation
 
 class ViewController: UIViewController {
      var audioPlayer = AVAudioPlayer ()
+      var audioPlayer2 = AVAudioPlayer ()
+      var audioPlayer3 = AVAudioPlayer ()
     
 override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,8 +24,8 @@ override func viewDidLoad() {
         if self.view.backgroundColor == UIColor.blue{
             self.view.backgroundColor = UIColor.purple
 
-        }else{
-            self.view.backgroundColor = UIColor.blue
+        }else if self.view.backgroundColor == UIColor.blue {
+            self.view.backgroundColor = UIColor.red
         }
        
         
@@ -178,13 +180,13 @@ override func viewDidLoad() {
         
         // Play the sound
         do {
-            audioPlayer = try AVAudioPlayer(contentsOf: alertSound)
+            audioPlayer2 = try AVAudioPlayer(contentsOf: alertSound)
         } catch _{
         }
         
-        audioPlayer.prepareToPlay()
-        audioPlayer.play()
-        audioPlayer.numberOfLoops = -1
+        audioPlayer2.prepareToPlay()
+        audioPlayer2.play()
+        audioPlayer2.numberOfLoops = -1
         
     }
 
@@ -204,13 +206,13 @@ override func viewDidLoad() {
         
         // Play the sound
         do {
-            audioPlayer = try AVAudioPlayer(contentsOf: alertSound)
+            audioPlayer2 = try AVAudioPlayer(contentsOf: alertSound)
         } catch _{
         }
         
-        audioPlayer.prepareToPlay()
-        audioPlayer.play()
-        audioPlayer.numberOfLoops = -1
+        audioPlayer2.prepareToPlay()
+        audioPlayer2.play()
+        audioPlayer2.numberOfLoops = -1
     }
     
     @IBAction func purple3(_ sender: UIButton) {
@@ -229,13 +231,13 @@ override func viewDidLoad() {
         
         // Play the sound
         do {
-            audioPlayer = try AVAudioPlayer(contentsOf: alertSound)
+            audioPlayer2 = try AVAudioPlayer(contentsOf: alertSound)
         } catch _{
         }
         
-        audioPlayer.prepareToPlay()
-        audioPlayer.play()
-        audioPlayer.numberOfLoops = -1
+        audioPlayer2.prepareToPlay()
+        audioPlayer2.play()
+        audioPlayer2.numberOfLoops = -1
     }
    
     @IBAction func purple4(_ sender: UIButton) {
@@ -254,13 +256,13 @@ override func viewDidLoad() {
         
         // Play the sound
         do {
-            audioPlayer = try AVAudioPlayer(contentsOf: alertSound)
+            audioPlayer2 = try AVAudioPlayer(contentsOf: alertSound)
         } catch _{
         }
         
-        audioPlayer.prepareToPlay()
-        audioPlayer.play()
-        audioPlayer.numberOfLoops = -1
+        audioPlayer2.prepareToPlay()
+        audioPlayer2.play()
+        audioPlayer2.numberOfLoops = -1
     }
     
     @IBAction func green1(_ sender: UIButton) {
@@ -279,13 +281,13 @@ override func viewDidLoad() {
         
         // Play the sound
         do {
-            audioPlayer = try AVAudioPlayer(contentsOf: alertSound)
+            audioPlayer3 = try AVAudioPlayer(contentsOf: alertSound)
         } catch _{
         }
         
-        audioPlayer.prepareToPlay()
-        audioPlayer.play()
-        audioPlayer.numberOfLoops = -1
+        audioPlayer3.prepareToPlay()
+        audioPlayer3.play()
+        audioPlayer3.numberOfLoops = -1
     }
     
     @IBAction func green2(_ sender: UIButton) {
@@ -304,13 +306,13 @@ override func viewDidLoad() {
         
         // Play the sound
         do {
-            audioPlayer = try AVAudioPlayer(contentsOf: alertSound)
+            audioPlayer3 = try AVAudioPlayer(contentsOf: alertSound)
         } catch _{
         }
         
-        audioPlayer.prepareToPlay()
-        audioPlayer.play()
-        audioPlayer.numberOfLoops = -1
+        audioPlayer3.prepareToPlay()
+        audioPlayer3.play()
+        audioPlayer3.numberOfLoops = -1
     }
     
     @IBAction func green3(_ sender: UIButton) {
@@ -329,15 +331,21 @@ override func viewDidLoad() {
         
         // Play the sound
         do {
-            audioPlayer = try AVAudioPlayer(contentsOf: alertSound)
+            audioPlayer3 = try AVAudioPlayer(contentsOf: alertSound)
         } catch _{
         }
         
-        audioPlayer.prepareToPlay()
-        audioPlayer.play()
-        audioPlayer.numberOfLoops = -1
+        audioPlayer3.prepareToPlay()
+        audioPlayer3.play()
+        audioPlayer3.numberOfLoops = -1
     }
 
+    
+    @IBAction func stop(_ sender: UIButton) {
+        audioPlayer.stop()
+        audioPlayer2.stop()
+        audioPlayer3.stop()
+    }
     
     
 }
